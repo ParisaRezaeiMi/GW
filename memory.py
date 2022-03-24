@@ -17,7 +17,7 @@ Mpc=3.086*10**22
 R=100*Mpc
 M=100*SM
 GG=6.67*10**(-11)
-
+a = 1
 ## the following function was not useful! check michael's code on utilsss
 def ylm(l,m,theta,phi):
     ylmm = scipy.special.sph_harm(m, l, theta, phi) 
